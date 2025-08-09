@@ -3,10 +3,10 @@ import React from 'react'
 const Navbar = () => {
   return (
    <nav className='bg-purple-400 flex items-center justify-around gap-7 p-2.5'>
-    <div className='logo font-bold'>
+    <div className='logo font-bold text-xl'>
               <span className='text-blue-800'>&lt;</span>
         Kee 
-              <span className='text-blue-800'>Prism/&gt;</span>
+              <span className='text-blue-800 '>Prism/&gt;</span>
         
         </div>
     <ul className='flex items-center gap-7'>
