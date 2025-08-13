@@ -10,12 +10,7 @@ const Navbar = () => {
         
         </div>
     <ul className='flex items-center gap-7'>
-        <li>
-            <a className='hover:text-indigo-500' href="/">Home</a>
-        </li>
-        <li>
-            <a className='hover:text-indigo-500' href="#">About</a>
-        </li>
+       
        
     </ul>
 
