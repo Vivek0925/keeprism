@@ -179,7 +179,7 @@ const Manager = () => {
                       </td>
                       <td className='py-2 px-2 border border-purple-300 text-center'>
                         <div className='flex items-center justify-center gap-1'>
-                          <span>{item.password}</span>
+                          <span>{"*".repeat(item.password.length)}</span>
                           <div className='cursor-pointer' onClick={() => copyText(item.password)}>
                             <lord-icon
                               style={{ width: "25px", height: "25px" }}
